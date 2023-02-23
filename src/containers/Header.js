@@ -24,7 +24,7 @@ export const Header = (props) => {
           own terms. Whether you’re looking to escape the rat race or set up a
           side hustle, we’ve got you covered.
         </p>
-        <img src={props.iconScroll} alt="" />
+        <img className={styles.iconScroll} src={props.iconScroll} alt="" />
       </header>
     </div>
   );

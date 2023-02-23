@@ -7,6 +7,10 @@
   @media only screen and (min-width: 768px) {
     margin: 48px 0 109px 0;
   }
+
+  @media only screen and (min-width: 1150px) {
+    margin: 81px 0 202px 0;
+  }
 }
 
 .nav {
@@ -23,6 +27,11 @@
     max-width: 768px;
     margin: 0 auto;
   }
+
+  @media only screen and (min-width: 1150px) {
+    max-width: 730px;
+    padding-top: 71px;
+  }
 }
 
 .h1 {
@@ -31,18 +40,29 @@
   line-height: 40px;
   color: var(--color-white);
 
-  width: 457px;
+  max-width: 500px;
   margin: 47.5px auto 23px auto;
   padding: 0 65px;
+
+  position: relative;
+  z-index: 5;
 
   .love {
     color: var(--color-lime-blue);
   }
 
   @media only screen and (min-width: 768px) {
-    width: 457px;
     margin: 0 auto 24px auto;
     padding: 0;
+    width: 457px;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    font-size: 48px;
+    line-height: 56px;
+    width: 730px;
+    padding: 0 100px;
+    max-width: revert;
   }
 }
 
@@ -52,15 +72,31 @@
   line-height: 25px;
   color: var(--color-gray);
 
-  width: 457px;
+  max-width: 500px;
   margin: 0 auto 32px auto;
   padding: 0 24px;
 
+  position: relative;
+  z-index: 5;
+
   @media only screen and (min-width: 768px) {
-    width: 457px;
-    margin: 0 auto;
     padding: 0;
+    width: 457px;
+    max-width: revert;
   }
+
+  @media only screen and (min-width: 1150px) {
+    font-size: 15px;
+    line-height: 25px;
+    width: 730px;
+    margin-bottom: 64px;
+    padding: 0 100px;
+  }
+}
+
+.iconScroll {
+  position: relative;
+  z-index: 5;
 }
 
 // // // // //
@@ -93,17 +129,29 @@
     position: absolute;
     top: 0;
   }
+
+  @media only screen and (min-width: 1150px) {
+    height: revert;
+  }
 }
 
 .heroLeftImg {
   @media only screen and (min-width: 768px) {
     left: -169px;
   }
+
+  @media only screen and (min-width: 1150px) {
+    left: -409px;
+  }
 }
 
 .heroRightImg {
   @media only screen and (min-width: 768px) {
     right: -171px;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    right: -415px;
   }
 }
 
@@ -115,6 +163,19 @@
   top: 34px;
   left: 50%;
   transform: translateX(-50%);
+
+  display: none;
+  visibility: hidden;
+
+  @media only screen and (min-width: 768px) {
+    display: revert;
+    visibility: revert;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    height: revert;
+    top: -17px;
+  }
 }
 
 // // // // //
