@@ -1,0 +1,30 @@
+:root {
+  --color-bg: hsla(230, 60%, 8%, 1);
+  --color-lime-blue: hsla(178, 80%, 58%, 1);
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-gray: hsla(225, 14%, 53%, 1);
+  --color-black-blue: hsla(206, 84%, 22%, 1);
+  --color-red: hsla(343, 100%, 58%, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+}

@@ -1,16 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./index.css";
 
-class App extends React.Component {}
+import { HeaderComponent } from "./components/HeaderComponent";
+
+class App extends React.Component {
+  render() {
+    return (
+      <main>
+        <HeaderComponent />
+      </main>
+    );
+  }
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
-// Get paid for the work you love to do.
-
-// The 9-5 grind is so last century. We believe in living life on your
-// own terms. Whether you’re looking to escape the rat race or set up
-// a side hustle, we’ve got you covered.
 
 // Indulge your passions
 // Your passions shouldn't be just for the weekend. Earn a living doing what you love.
