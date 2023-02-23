@@ -1,0 +1,130 @@
+.wrapper {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 144px auto;
+
+  @media only screen and (min-width: 768px) {
+    text-align: left;
+    max-width: revert;
+    width: 573px;
+    margin: 0 auto 141px auto;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    width: 1110px;
+    margin-bottom: 202px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 255px));
+    column-gap: 30px;
+  }
+}
+
+.feature {
+  padding: 0 24px;
+
+  &:not(:last-child) {
+    margin-bottom: 56px;
+
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 40px;
+    }
+
+    @media only screen and (min-width: 1150px) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    &:nth-child(1) {
+      padding-left: 58px;
+    }
+
+    &:nth-child(3) {
+      padding-left: 58px;
+    }
+  }
+
+  @media only screen and (min-width: 1150px) {
+    display: revert;
+    align-items: revert;
+
+    &:nth-child(1) {
+      padding-left: 0;
+    }
+
+    &:nth-child(3) {
+      padding-left: 0;
+    }
+
+    &:nth-child(2) {
+      padding-top: 48px;
+    }
+
+    &:nth-child(4) {
+      padding-top: 48px;
+    }
+  }
+}
+
+.imgWrapper {
+  width: 120px;
+  height: 124px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  background-color: var(--color-black-blue);
+  border-radius: 45px;
+
+  @media only screen and (min-width: 768px) {
+    margin: 0 55px 0 0;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    width: 160px;
+    height: 164px;
+    margin: 0 0 48px 0;
+  }
+}
+
+.img {
+  transform: scale(0.76);
+
+  @media only screen and (min-width: 1150px) {
+    transform: revert;
+  }
+}
+
+.contentWrapper {
+  @media only screen and (min-width: 768px) {
+    width: 340px;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    width: revert;
+  }
+}
+
+.h3 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-white);
+  margin-bottom: 11px;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 23px;
+  }
+}
+
+.p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-gray);
+}

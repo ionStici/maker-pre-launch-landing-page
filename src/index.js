@@ -3,12 +3,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import { HeaderComponent } from "./components/HeaderComponent";
+import { FeaturesComponent } from "./components/FeaturesComponent";
 
 class App extends React.Component {
   render() {
     return (
       <main>
         <HeaderComponent />
+        <FeaturesComponent />
       </main>
     );
   }
