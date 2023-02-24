@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.17bda5f0.css",
+    "main.js": "./static/js/main.2b250ed1.js",
+    "static/media/illustration-hero-left.svg": "./static/media/illustration-hero-left.c0c2c579053859dc7533b972b80f37a5.svg",
+    "static/media/illustration-hero-right.svg": "./static/media/illustration-hero-right.a020112c2efe06d8697f34111a3fbb57.svg",
+    "static/media/illustration-hero-mobile.png": "./static/media/illustration-hero-mobile.260dcd4e89450c30bbbf.png",
+    "static/media/bg-footer-squiggle.svg": "./static/media/bg-footer-squiggle.16bec34032cd689d4570314cf0a1d054.svg",
+    "static/media/illustration-passions.svg": "./static/media/illustration-passions.388956614c2826f15a4259e83d47e94a.svg",
+    "static/media/bg-hero-squiggle.svg": "./static/media/bg-hero-squiggle.5178f01998fd202cca55ee92cb5eaf7a.svg",
+    "static/media/illustration-financial-freedom.svg": "./static/media/illustration-financial-freedom.831f93a520ba1a75fafcc6e172b36c73.svg",
+    "static/media/illustration-work-anywhere.svg": "./static/media/illustration-work-anywhere.ca73b1b223bfa24fe1d3c75aeb40e8b6.svg",
+    "static/media/logo.svg": "./static/media/logo.21a1ccfc934006148b9bd65e606fdfd2.svg",
+    "static/media/illustration-lifestyle.svg": "./static/media/illustration-lifestyle.91a086882568d740383f98ef195a58a8.svg",
+    "static/media/icon-paid.svg": "./static/media/icon-paid.690d7aee87a8762b36509fe74be85f99.svg",
+    "static/media/icon-free.svg": "./static/media/icon-free.3062eb2c2337f201e0f2ea1fc420a9d6.svg",
+    "index.html": "./index.html",
+    "static/media/icon-scroll.svg": "./static/media/icon-scroll.593cee62ea6d7ce062677c3308992825.svg",
+    "static/media/icon-check.svg": "./static/media/icon-check.31120b0251a45ebe6c144781b47f7480.svg",
+    "main.17bda5f0.css.map": "./static/css/main.17bda5f0.css.map",
+    "main.2b250ed1.js.map": "./static/js/main.2b250ed1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17bda5f0.css",
+    "static/js/main.2b250ed1.js"
+  ]
+}

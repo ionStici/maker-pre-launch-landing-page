@@ -91,8 +91,8 @@
   white-space: nowrap;
   top: 47px;
 
-  //   display: none;
-  //   visibility: hidden;
+  display: none;
+  visibility: hidden;
 
   @media only screen and (min-width: 768px) {
     top: 52px;
@@ -101,15 +101,6 @@
 
   @media only screen and (min-width: 1150px) {
   }
-}
-
-.error .input {
-  border: 2px solid var(--color-red);
-}
-
-.error .errorMessage {
-  display: revert;
-  visibility: revert;
 }
 
 .btn {
@@ -124,12 +115,16 @@
   height: 48px;
   cursor: pointer;
   transition: border 0.2s ease-in-out, color 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+    background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
 
   &:hover {
     background-color: transparent;
     color: var(--color-white);
     border: 2px solid var(--color-lime-blue);
+  }
+
+  &:active {
+    transform: scale(0.975);
   }
 
   @media only screen and (min-width: 768px) {
