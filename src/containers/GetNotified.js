@@ -9,6 +9,7 @@ export class GetNotified extends React.Component {
         <form className={styles.form}>
           <input className={styles.input} placeholder="Email address" />
           <button className={styles.btn}>Get notified</button>
+          <p className={styles.errorMessage}>{this.props.error}</p>
         </form>
         <img className={styles.img} src={this.props.squiggle} alt="" />
       </footer>
