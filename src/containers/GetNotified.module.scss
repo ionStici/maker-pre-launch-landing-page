@@ -5,6 +5,17 @@
   padding: 0 24px;
   margin-bottom: 164px;
   text-align: center;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 119px;
+    max-width: revert;
+    padding-top: 16px;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    margin-bottom: 159px;
+    padding-top: 52px;
+  }
 }
 
 .h2 {
@@ -13,12 +24,29 @@
   line-height: 33px;
   color: var(--color-white);
   margin-bottom: 31px;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 29px;
+  }
+
+  @media only screen and (min-width: 1150px) {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 42px;
+  }
 }
 
 .form {
   display: flex;
   flex-direction: column;
   position: relative;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 476px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .input {
@@ -44,6 +72,12 @@
     outline: none;
     box-shadow: 0 0 5px var(--color-lime-blue);
   }
+
+  @media only screen and (min-width: 768px) {
+    width: 320px;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
 }
 
 .errorMessage {
@@ -57,8 +91,16 @@
   white-space: nowrap;
   top: 47px;
 
-  display: none;
-  visibility: hidden;
+  //   display: none;
+  //   visibility: hidden;
+
+  @media only screen and (min-width: 768px) {
+    top: 52px;
+    left: 145px;
+  }
+
+  @media only screen and (min-width: 1150px) {
+  }
 }
 
 .error .input {
@@ -89,9 +131,29 @@
     color: var(--color-white);
     border: 2px solid var(--color-lime-blue);
   }
+
+  @media only screen and (min-width: 768px) {
+    width: 140px;
+  }
 }
 
 .img {
   display: none;
   visibility: hidden;
+
+  @media only screen and (min-width: 768px) {
+    display: revert;
+    visibility: revert;
+    height: 140px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-61%);
+  }
+
+  @media only screen and (min-width: 1150px) {
+    height: revert;
+    transform: translateX(-56.5%);
+  }
 }
